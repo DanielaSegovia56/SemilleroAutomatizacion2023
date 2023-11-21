@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-11-2023 12:35</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-11-2023 16:59</span>
     <br style="clear:left"/>
 </div>
 
@@ -187,9 +187,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">Login successfully in Demo
+                                <span class="success-color">Login successfully in Demo
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -206,57 +206,20 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Runtime exception: java.io.FileNotFoundException: src\main\resources\Data\DataReto.xlsx (El sistema no puede encontrar el archivo especificado)</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.RuntimeException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>is.demo.serenity.utils.Data.extractTo(Data.java:16)<br />is.demo.serenity.steps.LoginSteps.sendCredentials(LoginSteps.java:28)<br />is.demo.serenity.stepDefinitions.LoginStepDefinitions.userInsertCredentialsAndClickOnSignIn(LoginStepDefinitions.java:24)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: java.io.FileNotFoundException
-                    </h4>
-                    <div>
-                            <pre>src\main\resources\Data\DataReto.xlsx (El sistema no puede encontrar el archivo especificado)</pre>
-                        <pre>is.demo.serenity.utils.Excel.leerDatosDeHojaDeExcel(Excel.java :22)<br />is.demo.serenity.utils.Data.extractTo(Data.java :14)<br />is.demo.serenity.steps.LoginSteps.sendCredentials(LoginSteps.java :28)<br />is.demo.serenity.stepDefinitions.LoginStepDefinitions.userInsertCredentialsAndClickOnSignIn(LoginStepDefinitions.java :24)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :85)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java :129)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :129)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :59)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                    <div class="panel-body">
-                        <a href="pagesource12245636841118084020.html" target="_blank" class="btn btn-info">HTML Source</a>
-                    </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="2f5f305363072b0bc31e6a3315a15569678624118f2a78f8bacbcbf3190b0587.png" title=" Given user open the browser" width="1318"/>
                 <img src="2f5f305363072b0bc31e6a3315a15569678624118f2a78f8bacbcbf3190b0587.png" title=" Open browser" width="1318"/>
                 <img src="2f5f305363072b0bc31e6a3315a15569678624118f2a78f8bacbcbf3190b0587.png" title=" Given user open the browser (completed)" width="1318"/>
-                <img src="2f5f305363072b0bc31e6a3315a15569678624118f2a78f8bacbcbf3190b0587.png" title=" When user insert credentials &quot;&lt;User&gt;&quot; &quot;&lt;Password&gt;&quot; and click on sign in" width="1318"/>
+                <img src="abce11f136bcfc5e43dabb80f2a97f4106cc0e9f5d11da55e9b906db12ca90ee.png" title=" When user insert credentials &quot;&lt;User&gt;&quot; &quot;&lt;Password&gt;&quot; and click on sign in" width="1318"/>
                 <img src="abce11f136bcfc5e43dabb80f2a97f4106cc0e9f5d11da55e9b906db12ca90ee.png" title=" Clean fields" width="1318"/>
-                <img src="abce11f136bcfc5e43dabb80f2a97f4106cc0e9f5d11da55e9b906db12ca90ee.png" title=" Send credentials: <span class='error-color'>ERROR</span>" width="1318"/>
+                <img src="abce11f136bcfc5e43dabb80f2a97f4106cc0e9f5d11da55e9b906db12ca90ee.png" title=" Send credentials" width="1318"/>
+                <img src="99467faf52e73b74aaab98ab9fb1ec04d0729844d7546cd333c136bba3287574.png" title=" Send credentials (completed)" width="1318"/>
+                <img src="99467faf52e73b74aaab98ab9fb1ec04d0729844d7546cd333c136bba3287574.png" title=" Click on login" width="1318"/>
+                <img src="a651117fd27abea52351a481b8a98976cf9de8c35904c3a63f288680459a2b84.png" title=" Click on login (completed)" width="1318"/>
+                <img src="a651117fd27abea52351a481b8a98976cf9de8c35904c3a63f288680459a2b84.png" title=" When user insert credentials &quot;&lt;User&gt;&quot; &quot;&lt;Password&gt;&quot; and click on sign in (completed)" width="1318"/>
+                <img src="43db4e57e0fb0ea839828c112fe0e295681a406045aa9c77aa15b4e091059e7d.png" title=" Then user can view the word Dashboard on the screen" width="1318"/>
+                <img src="43db4e57e0fb0ea839828c112fe0e295681a406045aa9c77aa15b4e091059e7d.png" title=" Validate login: <span class='success-color'>SUCCESS</span>" width="1318"/>
             </div>
         </div>
 

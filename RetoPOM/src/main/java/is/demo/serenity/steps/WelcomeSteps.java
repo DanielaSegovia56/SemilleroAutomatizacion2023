@@ -11,7 +11,7 @@ public class WelcomeSteps {
     WelcomePage welcomePage;
 
 
-    @Step()
+    @Step
     public void validateLogin() {
         Assert.assertEquals("Tablero", welcomePage.getDriver().
                 findElement(welcomePage.getLabelDashboard()).getText());
