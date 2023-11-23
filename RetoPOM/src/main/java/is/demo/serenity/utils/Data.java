@@ -20,7 +20,7 @@ public class Data {
 
     public static ArrayList<Map<String, String>> extractTo2(){
         try {
-            data2= Excel.leerDatosDeHojaDeExcel("src/main/resources/Data/Data.xlsx","credentials");
+            data2= Excel.leerDatosDeHojaDeExcel("src/main/resources/Data/DataReto.xlsx","credentials");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

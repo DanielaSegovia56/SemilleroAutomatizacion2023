@@ -6,17 +6,19 @@ import org.openqa.selenium.By;
 
 public class EditOrderPage extends PageObject {
 
-    //input de empleados
-    private final By listEmployee = By.id("s2id_autogen9");
+    private final By spanEmployee = By.id("select2-chosen-9");
 
-    //Lista de empleados
-    private final By employee = By.xpath("//li[@class='select2-results-dept-0 select2-result select2-result-selectable select2-highlighted']");
-
-    public By getListEmployee() {
-        return listEmployee;
+    private final By lsEmployee3 = By.xpath("//li[@class='select2-results-dept-0 select2-result select2-result-selectable'][3]");
+    public By getSpanEmployee() {
+        return spanEmployee;
     }
 
-    public By getEmployee() {
-        return employee;
+    public By getLsEmployee3() {
+        return lsEmployee3;
     }
+
+
+
+
+
 }

@@ -17,5 +17,11 @@ public class WelcomeSteps {
                 findElement(welcomePage.getLabelDashboard()).getText());
     }
 
+    @Step
+    public void clickOnMoreInformation(){
+        welcomePage.getDriver().findElement(welcomePage.getBtnMoreInformation()).click();
+    }
+
+
 }
 

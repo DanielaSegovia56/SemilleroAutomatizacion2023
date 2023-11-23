@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.demo.serenity.runners.ChangeNameRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-21T23:25:40" hostname="SQABOG-TGP5086" time="43.271">
+<testsuite name="is.demo.serenity.runners.DemoRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-23T02:17:13" hostname="SQABOG-TGP5086" time="46.789">
   <properties/>
-  <testcase name="Change employee name of an order" classname="is.demo.serenity.runners.ChangeNameRunner" time="43.271"/>
+  <testcase name="Change employee name of an order" classname="is.demo.serenity.runners.DemoRunner" time="46.789"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[nov. 21, 2023 6:25:44 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+  <system-err><![CDATA[nov. 22, 2023 9:17:16 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 45893
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 31440
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 21, 2023 6:25:50 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 22, 2023 9:17:22 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 21, 2023 6:25:50 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 22, 2023 9:17:22 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 21, 2023 6:25:50 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 22, 2023 9:17:22 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m

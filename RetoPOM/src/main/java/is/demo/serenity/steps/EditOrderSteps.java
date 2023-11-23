@@ -11,11 +11,11 @@ public class EditOrderSteps {
 
     @Step
     public void clickOnEmployee(){
-        editOrderPage.getDriver().findElement(editOrderPage.getListEmployee()).submit();
+        editOrderPage.getDriver().findElement(editOrderPage.getSpanEmployee()).click();
     }
 
     @Step
-    public void selectList(){
-
+    public void selectEmployee(){
+        editOrderPage.getDriver().findElement(editOrderPage.getLsEmployee3()).click();
     }
 }
