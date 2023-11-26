@@ -30,8 +30,8 @@ public class ChangeNameStepDefinitions {
         editOrderSteps.saveInformation();
     }
 
-    @Then("user can view the new employee name")
-    public void userCanViewTheNewEmployeeName() {
+    @Then("user can view the alert of saving successfully")
+    public void userCanViewTheAlertOfSavingSuccessfully() {
         editOrderSteps.validateChange();
     }
 }

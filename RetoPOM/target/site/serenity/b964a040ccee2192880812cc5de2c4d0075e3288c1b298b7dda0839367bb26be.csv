@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Change employee name","Change employee name of an order","ERROR","2023-11-26T15:59:30.3953808-05:00[America/Bogota]","0.0","79.86"
+"Change employee name","Change employee name of an order","FAILURE","2023-11-26T17:06:07.4159393-05:00[America/Bogota]","0.0","39.61"

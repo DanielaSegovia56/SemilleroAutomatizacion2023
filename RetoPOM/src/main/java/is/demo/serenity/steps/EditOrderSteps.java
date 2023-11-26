@@ -29,6 +29,5 @@ public class EditOrderSteps {
     public void validateChange(){
         Assert.assertEquals("Guardar con éxito", editOrderPage.getDriver().
                 findElement(editOrderPage.getLbSaveSuccesfully()).getText());
-        //editOrderPage.getDriver().findElement(editOrderPage.getLbSaveSuccesfully()).getText();
     }
 }

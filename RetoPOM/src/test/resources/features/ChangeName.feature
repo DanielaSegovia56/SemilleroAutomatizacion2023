@@ -7,4 +7,4 @@ Feature: Change employee name
     Scenario: Change employee name of an order
       When User do click on open orders button and select any of the orders
       And user select an employee
-      Then user can view the new employee name
+      Then user can view the alert of saving successfully
