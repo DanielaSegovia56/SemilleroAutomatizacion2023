@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca709922-8fe1-483b-adfc-5ab2e1a10332" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/classes/java/main/is/demo/serenity/pageObject/EditOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/classes/java/main/is/demo/serenity/pageObject/EditOrderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/classes/java/main/is/demo/serenity/steps/EditOrderSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/classes/java/main/is/demo/serenity/steps/EditOrderSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/classes/java/test/is/demo/serenity/stepDefinitions/ChangeNameStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/classes/java/test/is/demo/serenity/stepDefinitions/ChangeNameStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/classes/is.demo.serenity.runners.DemoRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/classes/is.demo.serenity.runners.DemoRunner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/packages/is.demo.serenity.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/reports/tests/test/packages/is.demo.serenity.runners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/test-results/test/TEST-is.demo.serenity.runners.DemoRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/test-results/test/TEST-is.demo.serenity.runners.DemoRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/EditOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/EditOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/EditOrderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/EditOrderSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/WelcomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/WelcomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/test/java/is/demo/serenity/stepDefinitions/ChangeNameStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/test/java/is/demo/serenity/stepDefinitions/ChangeNameStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +52,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/SQA/Desktop/RetoPOM_Semillero",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SQA/Desktop/RetoPOM_Semillero&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.DemoRunner">
     <configuration name="Feature: ChangeName" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
