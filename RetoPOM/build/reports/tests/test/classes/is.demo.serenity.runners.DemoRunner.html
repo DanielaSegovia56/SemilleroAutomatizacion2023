@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m14.87s</div>
+<div class="counter">2m54.66s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,93 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="Change employee name of an order"></a>
-<h3 class="failures">Change employee name of an order</h3>
-<span class="code">
-<pre>java.lang.IllegalArgumentException: bound must be positive
-	at java.base/java.util.Random.nextInt(Random.java:388)
-	at is.demo.serenity.utils.RandomSelection.selectOrders(RandomSelection.java:12)
-	at is.demo.serenity.steps.ListOrderSteps.listOrders(ListOrderSteps.java:20)
-	at is.demo.serenity.steps.ListOrderSteps$ByteBuddy$g7w29kua.listOrders$accessor$ucJ01otB(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at is.demo.serenity.steps.ListOrderSteps$ByteBuddy$g7w29kua.listOrders(Unknown Source)
-	at is.demo.serenity.stepDefinitions.ChangeNameStepDefinitions.userDoClickOnOpenOrdersButtonAndSelectAnyOfTheOrders(ChangeNameStepDefinitions.java:24)
-	at ✽.User do click on open orders button and select any of the orders(file:///C:/Users/SQA/SemilleroAutomatizacion2023/RetoPOM/src/test/resources/features/ChangeName.feature:8)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Login successfully in Demo"></a>
-<h3 class="failures">Login successfully in Demo</h3>
-<span class="code">
-<pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=119.0.2151.72)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c92a447cbc25827dbe2fef43e8b72cd2, findElement {using=id, value=LoginPanel0_Username}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62889}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\SQA\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62889/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c92a447cbc25827dbe2fef43e8b72cd2
-	at java.base@11.0.20/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@11.0.20/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base@11.0.20/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@11.0.20/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at app//net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:239)
-	at app//is.demo.serenity.steps.LoginSteps.cleanFields(LoginSteps.java:23)
-	at app//is.demo.serenity.steps.LoginSteps$ByteBuddy$HiA9lGPO.cleanFields$accessor$28JfdejD(Unknown Source)
-	at java.base@11.0.20/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.20/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.20/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.20/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
-	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//is.demo.serenity.steps.LoginSteps$ByteBuddy$HiA9lGPO.cleanFields(Unknown Source)
-	at app//is.demo.serenity.stepDefinitions.LoginStepDefinitions.userInsertCredentialsAndClickOnSignIn(LoginStepDefinitions.java:23)
-	at ✽.user insert credentials &quot;&lt;User&gt;&quot; &quot;&lt;Password&gt;&quot; and click on sign in(file:///C:/Users/SQA/SemilleroAutomatizacion2023/RetoPOM/src/test/resources/features/Login.feature:4)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -158,49 +78,49 @@ Session ID: c92a447cbc25827dbe2fef43e8b72cd2
 </tr>
 </thead>
 <tr>
-<td class="failures">Change employee name of an order</td>
-<td class="failures">1m8.21s</td>
-<td class="failures">failed</td>
+<td class="success">Change employee name of an order</td>
+<td class="success">2m2.65s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Login successfully in Demo</td>
-<td class="failures">6.668s</td>
-<td class="failures">failed</td>
+<td class="success">Login successfully in Demo</td>
+<td class="success">52.012s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>nov. 26, 2023 3:50:03 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+<pre>nov. 26, 2023 4:37:52 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 7308
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 33927
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 26, 2023 3:50:10 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 26, 2023 4:38:01 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 26, 2023 3:50:10 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 26, 2023 4:38:01 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 26, 2023 3:50:10 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 26, 2023 4:38:01 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-nov. 26, 2023 3:51:09 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+nov. 26, 2023 4:39:52 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 10825
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 17025
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 26, 2023 3:51:12 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 26, 2023 4:39:56 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 26, 2023 3:51:12 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 26, 2023 4:39:56 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 26, 2023 3:51:12 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 26, 2023 4:39:56 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
@@ -229,7 +149,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/11/2023, 3:51:18 p. m.</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/11/2023, 4:40:47 p. m.</p>
 </div>
 </div>
 </body>

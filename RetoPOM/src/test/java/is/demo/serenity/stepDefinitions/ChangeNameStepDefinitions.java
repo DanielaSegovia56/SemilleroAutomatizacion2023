@@ -32,6 +32,6 @@ public class ChangeNameStepDefinitions {
 
     @Then("user can view the new employee name")
     public void userCanViewTheNewEmployeeName() {
-
+        editOrderSteps.validateChange();
     }
 }

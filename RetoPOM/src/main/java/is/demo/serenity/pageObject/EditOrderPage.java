@@ -10,6 +10,8 @@ public class EditOrderPage extends PageObject {
     private final By lsEmployee3 = By.xpath("//li[@class='select2-results-dept-0 select2-result select2-result-selectable'][3]");
 
     private final By btnSave = By.xpath("//i[@class='fa fa-clipboard-check text-purple']");
+    private final By lbSaveSuccesfully = By.xpath("//div[@class='toast-message']");
+
 
     public By getSpanEmployee() {
         return spanEmployee;
@@ -21,5 +23,8 @@ public class EditOrderPage extends PageObject {
 
     public By getBtnSave() {
         return btnSave;
+    }
+    public By getLbSaveSuccesfully() {
+        return lbSaveSuccesfully;
     }
 }

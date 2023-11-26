@@ -12,16 +12,15 @@ public class WelcomeSteps {
 
 
     @Step
-    public void validateLogin() {
-        Assert.assertEquals("Tablero", welcomePage.getDriver().
-                findElement(welcomePage.getLabelDashboard()).getText());
-    }
-
-    @Step
     public void clickOnMoreInformation(){
         welcomePage.getDriver().findElement(welcomePage.getBtnMoreInformation()).click();
     }
 
+    @Step
+    public void validateLogin() {
+        Assert.assertEquals("Tablero", welcomePage.getDriver().
+                findElement(welcomePage.getLabelDashboard()).getText());
+    }
 
 }
 
