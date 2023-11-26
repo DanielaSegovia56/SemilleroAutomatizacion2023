@@ -18,4 +18,9 @@ public class EditOrderSteps {
     public void selectEmployee(){
         editOrderPage.getDriver().findElement(editOrderPage.getLsEmployee3()).click();
     }
+
+    @Step
+    public void saveInformation(){
+        editOrderPage.getDriver().findElement(editOrderPage.getBtnSave()).click();
+    }
 }

@@ -27,6 +27,7 @@ public class ChangeNameStepDefinitions {
     public void userSelectAnEmployee() {
         editOrderSteps.clickOnEmployee();
         editOrderSteps.selectEmployee();
+        editOrderSteps.saveInformation();
     }
 
     @Then("user can view the new employee name")

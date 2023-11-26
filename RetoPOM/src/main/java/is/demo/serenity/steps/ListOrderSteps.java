@@ -1,7 +1,6 @@
 package is.demo.serenity.steps;
 
 import is.demo.serenity.pageObject.ListOrderPage;
-import is.demo.serenity.pageObject.WelcomePage;
 import is.demo.serenity.utils.RandomSelection;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
