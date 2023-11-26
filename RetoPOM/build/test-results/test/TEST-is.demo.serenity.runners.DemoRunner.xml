@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.demo.serenity.runners.DemoRunner" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-26T22:11:26" hostname="SQABOG-TGP5086" time="52.66">
+<testsuite name="is.demo.serenity.runners.DemoRunner" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-26T23:43:11" hostname="SQABOG-TGP5086" time="53.421">
   <properties/>
-  <testcase name="Change employee name of an order" classname="is.demo.serenity.runners.DemoRunner" time="39.741"/>
-  <testcase name="Login successfully in Demo" classname="is.demo.serenity.runners.DemoRunner" time="12.893"/>
+  <testcase name="Change employee name of an order" classname="is.demo.serenity.runners.DemoRunner" time="38.643"/>
+  <testcase name="Login successfully in Demo" classname="is.demo.serenity.runners.DemoRunner" time="14.754"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[nov. 26, 2023 5:11:28 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+  <system-err><![CDATA[nov. 26, 2023 6:43:14 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 26873
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 8996
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 26, 2023 5:11:32 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 26, 2023 6:43:17 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 26, 2023 5:11:32 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 26, 2023 6:43:17 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 26, 2023 5:11:32 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 26, 2023 6:43:17 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-nov. 26, 2023 5:12:06 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+nov. 26, 2023 6:43:50 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 15240
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 16986
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 26, 2023 5:12:07 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 26, 2023 6:43:52 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 26, 2023 5:12:07 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 26, 2023 6:43:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 26, 2023 5:12:07 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 26, 2023 6:43:52 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
