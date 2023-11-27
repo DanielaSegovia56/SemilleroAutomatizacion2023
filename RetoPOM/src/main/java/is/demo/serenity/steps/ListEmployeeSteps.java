@@ -16,8 +16,8 @@ public class ListEmployeeSteps {
 
     @Step
     public void listEmployee(){
-        List<WebElement> employee = listEmployeePage.getDriver().findElements(listEmployeePage.getLsEmployee());
-        WebElement order = RandomSelection.selectOrders(employee);
-        order.click();
+        List<WebElement> employees = listEmployeePage.getDriver().findElements(listEmployeePage.getLsEmployee());
+        WebElement employee = RandomSelection.selectOrders(employees);
+        employee.click();
     }
 }

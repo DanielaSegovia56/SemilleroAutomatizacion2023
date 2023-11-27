@@ -6,10 +6,8 @@ import org.fluentlenium.core.annotation.Page;
 import org.junit.Assert;
 
 public class WelcomeSteps {
-
     @Page
     WelcomePage welcomePage;
-
 
     @Step
     public void clickOnMoreInformation(){

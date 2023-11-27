@@ -19,8 +19,8 @@ public class LoginStepDefinitions {
         loginSteps.openBrowser();
     }
 
-    @When("user insert credentials {string} {string} and click on sign in")
-    public void userInsertCredentialsAndClickOnSignIn(String user, String pass) {
+    @When("user insert credentials and click on sign in")
+    public void userInsertCredentialsAndClickOnSignIn() {
         loginSteps.cleanFields();
         loginSteps.sendCredentials();
         loginSteps.clickOnLogin();
