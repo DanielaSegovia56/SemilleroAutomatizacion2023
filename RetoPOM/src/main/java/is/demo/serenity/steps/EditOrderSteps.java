@@ -11,9 +11,6 @@ public class EditOrderSteps {
     @Page
     EditOrderPage editOrderPage;
 
-    @Page
-    ListOrderPage listOrderPage;
-
     @Step
     public void clickOnEmployee(){
         editOrderPage.getDriver().findElement(editOrderPage.getSpanEmployee()).click();
