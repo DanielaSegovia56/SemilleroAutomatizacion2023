@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca709922-8fe1-483b-adfc-5ab2e1a10332" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/pageObject/WelcomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/ListEmployeeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/ListEmployeeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/WelcomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/main/java/is/demo/serenity/steps/WelcomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/test/java/is/demo/serenity/stepDefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/test/java/is/demo/serenity/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/test/resources/features/ChangeName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/test/resources/features/ChangeName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoPOM/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/RetoPOM/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/SQA/Desktop/RetoPOM_Semillero",
+    "last_opened_file_path": "C:/Users/SQA/Desktop/Automatizacion_Serenity",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
